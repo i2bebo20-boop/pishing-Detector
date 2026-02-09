@@ -1,0 +1,16 @@
+{
+  "name": "phishing-detector",
+  "version": "1.0.0",
+  "description": "Phishing Detection System using Node.js with MITRE ATT&CK Mapping",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Graduation Project",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6"
+  }
+}
